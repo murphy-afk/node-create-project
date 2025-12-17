@@ -32,5 +32,5 @@ fs.writeFileSync(`${projectName}/package.json`, JSON.stringify(jsonContent, null
 
 fs.writeFileSync(`${projectName}/.gitignore`, 'node_modules')
 
-console.log('project created successfully now type cd project-name npm install npm run dev');
+console.log('project created successfully');
 
