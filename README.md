@@ -1,0 +1,1 @@
+node .\create.project.js (project name) (author name)
