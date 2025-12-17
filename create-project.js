@@ -22,8 +22,9 @@ const jsonContent = {
   }
 }
 
-const appContent = "console.log('hello world')";
+const appContent = "import express from 'express'; \nconsole.log('hello world')";
 
+fs.mkdirSync(`${projectName}/public`)
 
 fs.writeFileSync(`${projectName}/app.js`, appContent);
 
